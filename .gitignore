@@ -1,4 +1,11 @@
-# never commit vendor app material or binaries
+# never commit vendor app material or binaries.
+#
+# apk/ is where local analysis keeps the Meta AI companion app
+# (com.facebook.stella): the downloaded APK/XAPK bundle, its extracted split
+# APKs, the unpacked native libraries (lib/arm64-v8a/*.so), and the DEX files.
+# That is Meta's copyrighted software and MUST NOT be redistributed here. It is
+# kept out of the repo on purpose (see DISCLAIMER.md); this repo ships only our
+# own code and written findings. Keep any such material under apk/ locally.
 apk/
 *.apk
 *.apks
