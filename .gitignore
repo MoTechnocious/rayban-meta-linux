@@ -1,0 +1,13 @@
+# never commit vendor app material or binaries
+apk/
+*.apk
+*.apks
+*.xapk
+*.apkm
+*.so
+*.dex
+*.aar
+extracted/
+# python
+__pycache__/
+*.pyc
